@@ -1,0 +1,127 @@
+
+.product{
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+.product-row{
+    display: flex;
+    justify-content: space-between;
+}
+.product-col{
+    width: 50%;
+}
+.product-col:first-child{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-col:first-child img{
+    max-width: 400px;
+    max-height: 300px;
+}
+
+.product-col:last-child{
+    padding-left: 57px;
+}
+.product-title{
+    color: var(--text-color, #414141);
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-top: 15px;
+}
+.product-subtitle{
+    color: #686868;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+padding-top: 10px;
+}
+
+.product-details{
+    display: flex;
+    align-items: center;
+    margin-top: 19px;
+    margin-bottom: 18px;
+}
+.product-price{
+    color: var(--text-color, #414141);
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.product-btn{
+    color: #FFF;
+font-family: Roboto;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 12px 50px;
+width: 143px;
+height: 40px;
+background: var(--main-color, #245462);
+margin-left: 31px;
+margin-right: 20px;
+/* flex-shrink: 0; */
+}
+
+.product-heart{
+    display: flex;
+    align-items: center;
+}
+.product-heart span{
+    color: var(--text-color, #414141);
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 10px;
+}
+
+.product-comment{
+    color: var(--text-color, #414141);
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 20px;
+padding-bottom: 10px;
+}
+.product-text{
+    color: #686868;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 148.688%; /* 17.843px */
+}
+.product-settings{
+    display: flex;
+    align-items: center;
+}
+.product input:first-child{
+    width: 30px;
+    height: 30px;
+    outline: none;
+    border: 0;
+}
+.product input:nth-child(2){
+    width: 30px;
+    height: 30px;
+    outline: none;
+    border: 0; 
+    background: #FFF;text-align: center;
+
+/* menu-shadow */
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+}
